@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+   
+    background-image : url(../images/concrete_seamless.png) ;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 10px;
+}
+
+#toolbar-toggle {
+    display: flex;
+    
+    
+}
+
+.hidden {
+  display:none;
+   
+}
+
+.hiddenvisible {
+    justify-content: space-around; 
+    width: 200px;
+    margin: auto;
+    padding: 50px;
+}
+
+
+li {
+    display : inline-block;
+}
+
+h1 {
+    color: rgb(5, 77, 124);
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+    color: lightseagreen;
+    font-weight : bold;
+  }
+
+  figure {
+    margin-top: 30px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+  }
+
+  figure img {
+    border: 13px solid white;
+    box-shadow: 1px 1px 12px #555;
+    border-radius: 5px;
+    transform: rotate(-5deg)
+  }
+
+  figcaption { 
+    padding-top: 20px ;
+    font-size: 30px;
+    color: lightseagreen;
+    font-weight: bold;
+    transform: rotate(-5deg)
+
+  }
